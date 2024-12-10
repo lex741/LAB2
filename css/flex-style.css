@@ -1,0 +1,135 @@
+body, html{
+    margin:0;
+    height:100%;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p, h2, h4{
+    margin:0;
+    padding:10px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    height: 15%;
+}
+
+.header h1, .footer h3{
+    margin:2%;
+}
+
+.footer{
+    display:flex;
+    height: 17%;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.x-area{
+    margin:2%;
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.y-area{
+    margin: 2%;
+    width: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.area-23456{
+    display:flex;
+    justify-content: space-between;
+    height: 85%;
+}
+
+.area-2356{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
+}
+
+
+
+
+.area-2{
+    width:25%;
+    justify-items: right;
+    align-content: center;
+}
+
+.area-235{
+    display:flex;
+    height: 83%;
+}
+.image-wrapper{
+    display:flex;
+    justify-content: space-around;
+    height: 78%;
+    width: 100%;
+}
+p2{
+    text-align: right;
+}
+
+
+
+.area-456{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.area-35{
+    width:75%;
+}
+
+.area-3{
+    height:90%;
+    justify-items: right;
+    align-content: center;
+}
+
+.area-5{
+    height:10%;
+    align-content: center;
+}
+
+.area-4{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.blue{
+    background-color: rgb(125, 175, 249);
+}
+
+.orange{
+    background-color: peachpuff;
+}
+
+.green{
+    background-color: rgb(189, 228, 131);
+}
+
+.white{
+    background-color: white;
+}
