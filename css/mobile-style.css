@@ -188,7 +188,7 @@ p, h2, h4{
         height: 90%;
         overflow: hidden;
         background-image: url('/LAB2/images/4.jpg');
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         align-items: flex-end;
