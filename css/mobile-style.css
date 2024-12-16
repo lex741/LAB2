@@ -109,7 +109,7 @@ p, h2, h4{
         align-items: flex-end;
         overflow: hidden;
         background-image: url('/images/4.jpg');
-        background-size: cover;
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
 
