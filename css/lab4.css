@@ -1,0 +1,101 @@
+html, body{
+    margin: 0px;
+    background-color: #f9f9ff;
+}
+
+h2{
+    text-align: center;
+    color: #00cbe2;
+}
+h1, p{
+    margin: 5% 5% 0% 5%;
+}
+.main{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 260px);
+    grid-template-rows: repeat(3, 250px);
+    grid-template-areas:
+        "area1 area2 area3"
+        "area1 area4 area5"
+        "area6 area7 area7";
+    justify-content: center;
+    margin: 4% 0% 4% 0%;
+}
+
+@media screen and (max-width: 900px) {
+    .main{
+        grid-template-columns: repeat(1, 260px);
+        grid-template-rows: repeat(8, 250px);
+        grid-template-areas:
+        "area1"
+        "area2"
+        "area3"
+        "area4"
+        "area5"
+        "area6"
+        "area7"
+        "area7";
+    }
+}
+.area-1{
+    grid-area: area1;
+    background-color: #00cbe2;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #f3f3ff;
+}
+.area-2{
+    grid-area: area2;
+    background-image: url(/images/42.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.area-3{
+    grid-area: area3;
+    background-image: url(/images/43.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.area-4{
+    grid-area: area4;
+    border: 2px solid #00cbe2;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.area-5{
+    grid-area: area5;
+    background-image: url(/images/45.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.area-6{
+    grid-area: area6;
+    background-image: url(/images/46.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.area-7{
+    display: grid;
+    grid-area: area7;
+    background-color: orange;
+    color: #f3f3ff;
+    align-content: space-around;
+    justify-items: start;
+}
+.btn {
+    margin: 5%;
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #f9f9ff; /* Серый цвет фона */
+    color: black; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+}
