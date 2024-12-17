@@ -48,14 +48,14 @@ h1, p{
 }
 .area-2{
     grid-area: area2;
-    background-image: url(/images/42.jpg);
+    background-image: url(/LAB2/images/42.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .area-3{
     grid-area: area3;
-    background-image: url(/images/43.jpg);
+    background-image: url(/LAB2/images/43.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,14 +70,14 @@ h1, p{
 }
 .area-5{
     grid-area: area5;
-    background-image: url(/images/45.jpg);
+    background-image: url(/LAB2/images/45.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .area-6{
     grid-area: area6;
-    background-image: url(/images/46.jpg);
+    background-image: url(/LAB2/images/46.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
